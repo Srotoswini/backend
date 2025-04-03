@@ -25,4 +25,4 @@ app.include_router(user_routes.router, prefix="/users", tags=["Users"])
 @app.get("/")
 def home():
     print("successfully backend running!")
-    return {"message": "Speech Fix Backend is Running"}
+    return {"message": "Backend is Running"}
